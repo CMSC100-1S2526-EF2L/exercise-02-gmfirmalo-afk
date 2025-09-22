@@ -1,0 +1,91 @@
+<!-- FIRMALO, GLEIR ANDREI M.
+ EXER 2 
+ CMSC 100
+ 09/22/2025
+ THIS IS A SIMPLE WEBSITE THAT USES BASIC HTML AND CSS. IT FEATURES A SIMPLE PORTFOLIO ABOUT ME
+ 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- this contains my logo as well as my name and the hyperlinks to the different parts of my protfolio-->
+  <header>
+    <div class="logo">
+      <img src="MyLogo.png" alt="My Logo">
+      <h1>GLEIR ANDREI M. FIRMALO</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#featured">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- added a featured photo-->
+  <section id="featured" class="featured">
+    <h2>Welcome to My Portfolio</h2>
+    <img src="portfolio.jpg" alt="Featured Photo">
+    <p>I want to graduate.</p>
+  </section>
+
+  <!-- just a few cmsc exercises and projects that I was able to accomplish -->
+  <section id="projects" class="projects">
+    <h2>Previous Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Python Chemical Library</h3>
+        <p>A simple python program that allows you to keep track of the inventory and computes when performing an experiment.</p>
+      </div>
+      <div class="project">
+        <h3>Online Game Store</h3>
+        <p>A simple website that allows you to pick games and checkout.</p>
+      </div>
+      <div class="project">
+        <h3>Hellbi the Last Isko</h3>
+        <p>A simple java application that features a shooting game.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills that I have acquired through my cmsc subjects so far -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Basic Web Programming</li>
+      <li>Project Management</li>
+      <li>Python</li>
+      <li>Java</li>
+    </ul>
+  </section>
+
+  <!-- Autobiography -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      An Isko who wants to graduate after being delayed.
+    </p>
+  </section>
+
+  <!-- Footer and other info -->
+  <footer id="contact">
+    <div class="footer-content">
+      <p><strong>Contact Info:</strong> gmfirmalo@up.edu.ph | +639272020235</p>
+      <p>&copy; 2025 GLEIR ANDREI M. FIRMALO. All rights reserved.</p>
+      <a href="#featured" class="back-to-top">Back to Top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
